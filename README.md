@@ -55,6 +55,16 @@ KRUTRIM_API_KEY=your_krutrim_key
 
 ## Running the Client
 
+This demo uses three MCP servers and one client.
+Each server must be started before running the client.
+
+Start Servers (in separate terminals):
+```bash
+python calendar_server.py
+python krutrim_server.py
+python geoapify_server.py
+```
+
 Start the MCP client:
 
 ```bash

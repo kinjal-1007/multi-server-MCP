@@ -1,0 +1,17 @@
+[project]
+name = "book-my-calendar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.11.3",
+    "google-api-python-client>=2.179.0",
+    "google-auth>=2.40.3",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.2",
+    "httpx>=0.28.1",
+    "langchain-groq>=0.3.7",
+    "mcp>=1.13.0",
+    "python-dotenv>=1.1.1",
+]

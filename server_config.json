@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+      "calendar": {
+        "command": "python",
+        "args": ["calendar_server.py"],
+        "env": {}
+      },
+      "krutrim": {
+        "command": "python",
+        "args": ["krutrim_places.py"],
+        "env": {}
+      },
+      "geoapify": {
+        "command": "python",
+        "args": ["geoapify_places.py"],
+        "env": {}
+      }
+    }
+  }
+  

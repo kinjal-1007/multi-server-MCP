@@ -1,0 +1,9 @@
+google-auth 
+google-auth-oauthlib 
+google-auth-httplib2 
+google-api-python-client
+fastmcp
+python-dotenv
+mcp
+langchain-groq
+httpx

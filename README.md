@@ -17,20 +17,23 @@ The assistant can dynamically invoke multiple tools in a single conversation —
 
 ## Setup
 
-### 1. Clone Repository
-
+1. **Navigate to the project directory:**
 ```bash
-git clone <your-repo-url>
-cd book-my-calendar
+cd /path/to/this/folder
 ```
 
-### 2. Install Dependencies
-
+2. **Initialize the project and create a virtual environment:**
 ```bash
-pip install -r requirements.txt
+uv init kafka-mcp
+uv venv
 ```
 
-### 3. Environment Variables
+3.  **Install the dependencies from the provided `requirements.txt`:**
+```bash
+uv add -r requirements.txt
+```
+
+4. **Environment Variables:**
 
 Create a `.env` file in the root folder:
 
@@ -40,7 +43,7 @@ GEOAPIFY_API_KEY=your_geoapify_key
 KRUTRIM_API_KEY=your_krutrim_key
 ```
 
-### 4. Google Calendar Setup
+5. **Google Calendar Setup:**
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/).
 2. Create a new project and enable the **Google Calendar API**.
